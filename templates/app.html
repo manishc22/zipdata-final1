@@ -1,0 +1,15 @@
+{% extends "base.html" %} {% block content %}
+<div>
+  <h2 class="text-heading-3">{{title}}</h2>
+  <br />
+  <div class="text-summary">{{description}}</div>
+  <br />
+  <iframe
+    src="{{script
+    |
+    safe}}"
+    height="1500"
+    style="width: 100%; border: none"
+  ></iframe>
+</div>
+{% endblock %}

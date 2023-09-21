@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="msapplication-TileColor" content="#0E0E0E" />
+    <meta name="template-color" content="#0E0E0E" />
+    <link rel="manifest" href="manifest.json" crossorigin />
+    <meta name="msapplication-config" content="browserconfig.xml" />
+    <meta name="description" content="Index page" />
+    <meta name="keywords" content="index, page" />
+    <meta name="author" content="" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{{ url_for('static', path='assets/imgs/template/zipdata-final.png') }}"
+    />
+    <link
+      href="{{ url_for('static', path='assets/css/style.css') }}"
+      rel="stylesheet"
+    />
+    <title>FP&A Automation & Services</title>
+  </head>
+  <body>
+    <!-- Preloader Start-->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="text-center">
+            <div class="loader"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header sticky-bar">
+      <div class="container">
+        <div class="main-header">
+          <div class="header-left">
+            <div class="header-logo">
+              <a class="d-flex" href="/"
+                ><img
+                  alt="Agon"
+                  src="{{ url_for('static', path='assets/imgs/template/zipdata-final.png') }}"
+              /></a>
+            </div>
+            <div class="header-nav">
+              <nav class="nav-main-menu d-none d-xl-block"></nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section-box">
+        <div
+          class="banner-hero banner-head-image"
+          style="
+            background: url(../static/assets/imgs/page/blog/single/banner3.jpg);
+          "
+        >
+          <!-- <div class="container">
+            <div class="text-center">
+              <span class="tag-1 bg-6 color-green-900">Demo App</span>
+              <h3 class="text-heading-3 color-white mt-30">
+                FP&A app workflow for a (fictitious) Retail & E-Commerce company
+                <br class="d-lg-block d-none" />
+                with dummy data
+              </h3>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <section class="section-box pt-140 pb-50">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 mb-40">
+              <h3 class="text-heading-1">Demo App</h3>
+
+              <!-- <h5 class="text-heading-6">
+                FP&A app workflow for a (fictitious) Retail & E-Commerce company
+                with dummy data
+              </h5> -->
+              <div class="row">
+                <div class="col-lg-12 mt-50">
+                  <h4 class="text-heading-6 icon-leaf">
+                    Retail & E-Commerce Company
+                  </h4>
+                  <p class="text-body-excerpt color-gray-600 mt-15">
+                    The latest design trends meet hand-crafted templates.
+                  </p>
+                </div>
+                <div class="col-lg-12 mt-50">
+                  <h4 class="text-heading-6 icon-leaf">Dummy Data</h4>
+                  <p class="text-body-excerpt color-gray-600 mt-15">
+                    The latest design trends meet hand-crafted templates.
+                  </p>
+                </div>
+              </div>
+              <div class="mt-60">
+                <a
+                  class="btn btn-black icon-arrow-right-white"
+                  href="page-contact.html"
+                  >Demo App</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="accordion" id="accordionFAQ">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button text-heading-5"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      App Outline
+                    </button>
+                  </h2>
+                  <div
+                    class="accordion-collapse collapse show"
+                    id="collapseOne"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionFAQ"
+                  >
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature Id pro doctus mediocrem erroribus, diam nostro
+                      sed cu. Ea pri graeco tritani partiendo. Omittantur No
+                      tale choro fastidii his, pri cu epicuri perpetua. Enim
+                      dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                      Ex illum officiis id.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button text-heading-5 collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Management Reporting
+                    </button>
+                  </h2>
+                  <div
+                    class="accordion-collapse collapse"
+                    id="collapseTwo"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionFAQ"
+                  >
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature Id pro doctus mediocrem erroribus, diam nostro
+                      sed cu. Ea pri graeco tritani partiendo. Omittantur No
+                      tale choro fastidii his, pri cu epicuri perpetua. Enim
+                      dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                      Ex illum officiis id.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button text-heading-5 collapsed text-heading-5 type="
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Workspace - States
+                    </button>
+                  </h2>
+                  <div
+                    class="accordion-collapse collapse"
+                    id="collapseThree"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionFAQ"
+                  >
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature Id pro doctus mediocrem erroribus, diam nostro
+                      sed cu. Ea pri graeco tritani partiendo. Omittantur No
+                      tale choro fastidii his, pri cu epicuri perpetua. Enim
+                      dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                      Ex illum officiis id.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button text-heading-5 collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      Stores
+                    </button>
+                  </h2>
+                  <div
+                    class="accordion-collapse collapse"
+                    id="collapseFour"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionFAQ"
+                  >
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature Id pro doctus mediocrem erroribus, diam nostro
+                      sed cu. Ea pri graeco tritani partiendo. Omittantur No
+                      tale choro fastidii his, pri cu epicuri perpetua. Enim
+                      dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                      Ex illum officiis id.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button
+                      class="accordion-button text-heading-5 collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      Products
+                    </button>
+                  </h2>
+                  <div
+                    class="accordion-collapse collapse"
+                    id="collapseFive"
+                    aria-labelledby="headingFive"
+                    data-bs-parent="#accordionFAQ"
+                  >
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature Id pro doctus mediocrem erroribus, diam nostro
+                      sed cu. Ea pri graeco tritani partiendo. Omittantur No
+                      tale choro fastidii his, pri cu epicuri perpetua. Enim
+                      dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                      Ex illum officiis id.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingSix">
+                    <button
+                      class="accordion-button text-heading-5 collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix"
+                      aria-expanded="false"
+                      aria-controls="collapseSix"
+                    >
+                      Returns
+                    </button>
+                  </h2>
+                  <div
+                    class="accordion-collapse collapse"
+                    id="collapseSix"
+                    aria-labelledby="headingSix"
+                    data-bs-parent="#accordionFAQ"
+                  >
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature Id pro doctus mediocrem erroribus, diam nostro
+                      sed cu. Ea pri graeco tritani partiendo. Omittantur No
+                      tale choro fastidii his, pri cu epicuri perpetua. Enim
+                      dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                      Ex illum officiis id.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer-->
+
+    <script src="../static/assets/js/vendors/modernizr-3.6.0.min.js"></script>
+    <script src="../static/assets/js/vendors/jquery-3.6.0.min.js"></script>
+    <script src="../static/assets/js/vendors/jquery-migrate-3.3.0.min.js"></script>
+    <script src="../static/assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="../static/assets/js/vendors/waypoints.js"></script>
+    <script src="../static/assets/js/vendors/wow.js"></script>
+    <script src="../static/assets/js/vendors/magnific-popup.js"></script>
+    <script src="../static/assets/js/vendors/perfect-scrollbar.min.js"></script>
+    <script src="../static/assets/js/vendors/select2.min.js"></script>
+    <script src="../static/assets/js/vendors/isotope.js"></script>
+    <script src="../static/assets/js/vendors/scrollup.js"></script>
+    <script src="../static/assets/js/vendors/counterup.js"></script>
+    <script src="../static/assets/js/vendors/slick.js"></script>
+    <script src="../static/assets/js/vendors/jquery.elevatezoom.js"></script>
+    <script src="../static/assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="../static/assets/js/vendors/noUISlider.js"></script>
+    <script src="../static/assets/js/vendors/slider.js"></script>
+    <script src="../static/assets/js/main.js?v=1.0"></script>
+  </body>
+</html>

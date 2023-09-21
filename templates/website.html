@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="msapplication-TileColor" content="#0E0E0E" />
+    <meta name="template-color" content="#0E0E0E" />
+
+    <link rel="manifest" href="manifest.json" crossorigin />
+    <meta name="msapplication-config" content="browserconfig.xml" />
+    <meta name="description" content="Index page" />
+    <meta name="keywords" content="index, page" />
+    <meta name="author" content="" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{{ url_for('static', path='assets/imgs/template/zipdata-final.png') }}"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../static/assets/css/vendors/normalize.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../static/assets/css/vendors/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../static/assets/css/vendors/slick.css"
+    />
+    <link
+      href="{{ url_for('static', path='assets/css/style.css') }}"
+      rel="stylesheet"
+    />
+    <title>Analytics Solutions for CFOs</title>
+  </head>
+  <body>
+    <!-- Preloader Start-->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="text-center">
+            <div class="loader"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header sticky-bar">
+      <div class="container">
+        <div class="main-header">
+          <div class="header-left">
+            <div class="header-logo">
+              <a class="d-flex" href="/"
+                ><img
+                  alt="Zipdata"
+                  src="../static/assets/imgs/template/zipdata-final.png"
+              /></a>
+            </div>
+            <div class="header-nav">
+              <nav class="nav-main-menu d-none d-xl-block">
+                <ul class="main-menu">
+                  <li>
+                    <a class="active" href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#Problem">Problem</a>
+                  </li>
+                  <li>
+                    <a href="#Technology">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#Offering">Solutions</a>
+                  </li>
+                  <li>
+                    <a href="#Advantages">Advantages</a>
+                  </li>
+
+                  <li>
+                    <a href="#Contact">Contact Us</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section-box" id="Home">
+        <div class="banner-hero banner-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <h1 class="text-display-3">
+                  <span class="color-green-900"
+                    >Advanced Analytics and AI
+                  </span>
+                  would drive CFO decision making
+                </h1>
+                <p class="text-body-lead-large color-gray-900 mt-40 mb-30">
+                  A CFO is estimated to manage between 350-500 Business,
+                  Financial and (now) ESG Metrics.
+                  <span
+                    ><em
+                      >Monitoring, Optimizing, Forecasting, Controling, and
+                      Reporting
+                    </em></span
+                  >
+                  them without the right Data tools is complex.
+                </p>
+
+                <div class="row mt-30">
+                  <!-- <div class="col-lg-6 col-md-7 col-sm-7 col-7">
+                    <h5>Our Analytics Maturity Model</h5>
+                  </div> -->
+                  <div class="col-lg-6 col-md-5 col-sm-5 col-5 tag-mb">
+                    <a
+                      class="btn btn-black icon-arrow-right-white"
+                      href="blog-main"
+                      >Know More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 d-none d-lg-block">
+                <div class="banner-imgs">
+                  <!-- <div class="video-block shape-1">
+                    <a
+                      class="popup-youtube btn-play-video"
+                      href="https://www.youtube.com/watch?v=oRI37cOPBQQ"
+                    ></a
+                    ><span class="text-heading-4">Watch intro video</span>
+                  </div> -->
+                  <img
+                    class="img-responsive shape-2"
+                    alt="Agon"
+                    src="{{
+                  url_for('static', path='assets/imgs/page/homepage1/banner.png') }}"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-box" id="Problem">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-sm-1 col-12"></div>
+
+            <div class="col-lg-8 col-sm-10 col-12 text-center mt-70">
+              <div class="text-center mb-20">
+                <span class="tag-1">The Problem</span>
+              </div>
+              <h2 class="text-heading-1 color-gray-900 mb-20">Why Zipdata?</h2>
+              <p class="text-body-lead-large color-gray-600 mt-20 mb-30">
+                The
+                <span class="color-green-900"
+                  ><a href="about-us"
+                    >road to become a data centric organization</a
+                  >
+                </span>
+                is arduous, and requires operationalizing the right data
+                infrastructure with right tools and resources.
+              </p>
+            </div>
+            <div class="col-lg-2 col-sm-1 col-12"></div>
+          </div>
+        </div>
+        <div class="container mt-20">
+          <div class="row">
+            <div class="col-lg-1 col-sm-1 col-12"></div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="list-icons">
+                <div class="item-icon none-bd">
+                  <span class="icon-left"
+                    ><img
+                      src="{{ url_for('static', path='assets/imgs/page/services/1/icon-support.svg') }}"
+                      alt="Agon"
+                  /></span>
+                  <h4 class="text-heading-6">Data Strategy and Governance</h4>
+                  <p class="text-body-text color-gray-600 mt-15">
+                    Data Strategy must incorporate designing the right metadata,
+                    metric schemas, KPIs, and so on. Governance is needed to
+                    oversee data quality, security, and compliances.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="list-icons">
+                <div class="item-icon none-bd">
+                  <span class="icon-left"
+                    ><img
+                      src="{{ url_for('static', path='assets/imgs/page/services/1/icon-web.svg') }}"
+                      alt="Agon"
+                  /></span>
+                  <h4 class="text-heading-6">
+                    Data Integration and Centralization
+                  </h4>
+                  <p class="text-body-text color-gray-600 mt-15">
+                    Data from disparate sources / systems needs to be pooled
+                    into a central data warehouse / datalake. This
+                    centralization provides a unified view, powers analytics,
+                    and streamlines reporting.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="list-icons">
+                <div class="item-icon none-bd">
+                  <span class="icon-left"
+                    ><img
+                      src="{{ url_for('static', path='assets/imgs/page/services/1/icon-business.svg') }}"
+                      alt="Agon"
+                  /></span>
+                  <h4 class="text-heading-6">Advanced Analytics and Tools</h4>
+                  <p class="text-body-text color-gray-500 mt-15">
+                    The right set of software is needed to extract insights from
+                    data, build interactive visualizations, perform predictive
+                    modeling, and deliver advanced analytics for accurate and
+                    timely decisions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-1 col-sm-1 col-12"></div>
+          </div>
+          <div class="row">
+            <div class="col-lg-1 col-sm-1 col-12"></div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="list-icons">
+                <div class="item-icon none-bd">
+                  <span class="icon-left"
+                    ><img
+                      src="{{ url_for('static', path='assets/imgs/page/services/1/icon-product.svg') }}"
+                      alt="Agon"
+                  /></span>
+                  <h4 class="text-heading-6">Data Modeling and Analysis</h4>
+                  <p class="text-body-text color-gray-500 mt-15">
+                    Right kind of coding and AI/ML skills are needed to for
+                    example, forecast cash flow, identify trends in revenue and
+                    expenses, use predictive modeling to optimize pricing
+                    strategies, assess risks, and so on.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="list-icons">
+                <div class="item-icon none-bd">
+                  <span class="icon-left"
+                    ><img
+                      src="{{ url_for('static', path='assets/imgs/page/services/1/icon-share.svg') }}"
+                      alt="Agon"
+                  /></span>
+                  <h4 class="text-heading-6">
+                    Business Partnering and easy accessibility
+                  </h4>
+                  <p class="text-body-text color-gray-500 mt-15">
+                    Seamless and easy cross-functional collaboration must be
+                    enabled for other teams and departments to access relevant
+                    insights, performance analytics, and remedial strategic
+                    plans.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="list-icons">
+                <div class="item-icon none-bd">
+                  <span class="icon-left"
+                    ><img
+                      src="{{ url_for('static', path='assets/imgs/page/services/1/icon-build.svg') }}"
+                      alt="Agon"
+                  /></span>
+                  <h4 class="text-heading-6">Automation Strategy</h4>
+                  <p class="text-body-text color-gray-500 mt-15">
+                    As it is challenging and expensive to retain an expert Data
+                    Team of Engineers and Analysts, it is imperative for
+                    Automating Data workflows to reduce repeated manual
+                    interventions.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-1 col-sm-1 col-12"></div>
+          </div>
+          <div class="text-center mb-20">
+            <a class="btn btn-black icon-arrow-right-white" href="about-us"
+              >Know More</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section-box" id="Technology">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-sm-1 col-12"></div>
+            <div class="col-lg-8 col-sm-10 col-12 text-center mt-100">
+              <div class="text-center mb-20">
+                <span class="tag-1">Technology</span>
+              </div>
+              <h2 class="text-heading-2 color-gray-900">
+                Scalable, configurable,<br class="d-lg-block d-none" />
+                and adaptable Data App
+              </h2>
+              <p class="text-body-lead-large color-gray-600 mt-20">
+                Data App abstracts away the complexity of building an end-to-end
+                Data Infrastructure, and enables highly configurable Solutions.
+              </p>
+            </div>
+            <div class="col-lg-2 col-sm-1 col-12"></div>
+          </div>
+        </div>
+        <div class="container mt-40">
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="card-grid-1 bg-5 bg-business hover-up">
+                <div class="grid-1-img">
+                  <img
+                    src="../static/assets/imgs/page/homepage1/business-strategy.svg"
+                    alt="Agon"
+                  />
+                </div>
+                <h3 class="text-heading-3 mt-20">Data-Hub & Workspaces</h3>
+                <p class="text-body-excerpt mt-20">
+                  Workspaces can be created for any Business Unit, Department,
+                  Project, Region, Team(s), for which Performance has to be
+                  tracked.
+                </p>
+                <p class="text-body-excerpt mt-20">
+                  Data-Hub is the backend for each Workspace, allowing Teams to
+                  add Excels, CSVs, create connections to external Accounting,
+                  ERP or CRM systems, and automate inbound data workflows.
+                </p>
+
+                <!-- <div class="mt-30">
+                  <a
+                    class="btn btn-default btn-white icon-arrow-right"
+                    href="page-about-1.html"
+                    >Learn more</a
+                  >
+                </div> -->
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+              <div class="card-grid-1 bg-9 bg-local hover-up">
+                <div class="grid-1-img">
+                  <img
+                    src="../static/assets/imgs/page/homepage1/local.svg"
+                    alt="Agon"
+                  />
+                </div>
+                <h3 class="text-heading-3 mt-20">Interactive Visualizations</h3>
+                <p class="text-body-excerpt mt-20">
+                  Each Workspace brings with it Interactive Visualizations -
+                  that encapsulate multi-dimensional charts and dashboards,
+                  Leaderboards, at-risk entities, interactive datatables, and
+                  much more.
+                </p>
+                <p class="text-body-excerpt mt-20">
+                  These visualizations help Leaders go back in time, monitor
+                  trends, compare / rank entities, evaluate growth, all in a
+                  single view.
+                </p>
+
+                <!-- <div class="mt-30">
+                  <a
+                    class="btn btn-default btn-white icon-arrow-right"
+                    href="page-about-2.html"
+                    >Learn more</a
+                  >
+                </div> -->
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+              <div class="card-grid-1 bg-2 bg-social hover-up">
+                <div class="grid-1-img">
+                  <img
+                    src="../static/assets/imgs/page/homepage1/social.svg"
+                    alt="Agon"
+                  />
+                </div>
+                <h3 class="text-heading-3 mt-20">Automated Data Feeds</h3>
+                <p class="text-body-excerpt mt-20">
+                  Custom Analytics or AI/ML Models can be created as external
+                  components and run on-schedule. Results from these are
+                  published as Posts.
+                </p>
+                <p class="text-body-excerpt mt-20">
+                  Additionally, Rules can be set to create KPI Targets,
+                  thresholds, or benchmarks, which trigger automated Alerts
+                  helping in decision support.
+                </p>
+
+                <!-- <div class="mt-30">
+                  <a
+                    class="btn btn-default btn-white icon-arrow-right"
+                    href="page-about-3.html"
+                    >Learn more</a
+                  >
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-box" id="Offering">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-sm-1 col-12"></div>
+            <div class="col-lg-8 col-sm-10 col-12 text-center mt-70">
+              <div class="text-center mb-20">
+                <span class="tag-1">Our Offering</span>
+              </div>
+              <h2 class="text-heading-1 color-gray-900">
+                Analytics Solutions for CFOs<br class="d-lg-block d-none" />
+              </h2>
+              <p class="text-body-lead-large color-gray-600 mt-20">
+                While endless custom Solutions can be modeled by Workspaces,
+                some are offered as Templates as references for easy future
+                deployments
+              </p>
+            </div>
+            <div class="col-lg-2 col-sm-1 col-12"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="text-center mt-50">
+            <ul class="nav" role="tablist">
+              <li>
+                <a
+                  class="btn btn-default btn-bd-green-hover btn-select active"
+                  href="#tab-1"
+                  data-bs-toggle="tab"
+                  role="tab"
+                  aria-controls="tab-1"
+                  aria-selected="true"
+                  >Revenue Growth & Customer Analytics</a
+                >
+              </li>
+              <li>
+                <a
+                  class="btn btn-default btn-bd-green-hover btn-select"
+                  href="#tab-2"
+                  data-bs-toggle="tab"
+                  role="tab"
+                  aria-controls="tab-2"
+                  aria-selected="true"
+                  >Budgeting and Planning</a
+                >
+              </li>
+              <li>
+                <a
+                  class="btn btn-default btn-bd-green-hover btn-select"
+                  href="#tab-3"
+                  data-bs-toggle="tab"
+                  role="tab"
+                  aria-controls="tab-3"
+                  aria-selected="true"
+                  >Cost Optimization Analysis</a
+                >
+              </li>
+              <li>
+                <a
+                  class="btn btn-default btn-bd-green-hover btn-select"
+                  href="#tab-4"
+                  data-bs-toggle="tab"
+                  role="tab"
+                  aria-controls="tab-4"
+                  aria-selected="true"
+                  >ESG Analytics and Reporting</a
+                >
+              </li>
+              <li>
+                <a
+                  class="btn btn-default btn-bd-green-hover btn-select"
+                  href="#tab-5"
+                  data-bs-toggle="tab"
+                  role="tab"
+                  aria-controls="tab-5"
+                  aria-selected="true"
+                  >Management Reporting</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="tab-content">
+            <!-- Start Tab-->
+            <div
+              class="tab-pane fade active show"
+              id="tab-1"
+              role="tabpanel"
+              aria-labelledby="tab-1"
+            >
+              <div class="bg-2 panel-box mt-50">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <div class="box-optimized">
+                      <h3 class="text-heading-2">
+                        Drive effective cross-selling and upselling strategies
+                      </h3>
+                      <p class="text-body-excerpt mt-30">
+                        The Solutions involves analyzing customer segments to
+                        understand diverse customer groups, evaluating
+                        purchasing behavior to uncover trends and preferences,
+                        assessing customer lifetime value, and similar KPIs for
+                        long-term profitability.
+                      </p>
+                      <p class="text-body-excerpt mt-30">
+                        <b
+                          >These insights drive effective cross-selling and
+                          upselling strategies, optimize pricing models, and
+                          ultimately boost revenue.</b
+                        >
+                      </p>
+                      <!-- <div class="mt-40">
+                        <a
+                          class="btn btn-default btn-white icon-arrow-right"
+                          href="page-service-1.html"
+                          >Learn more</a
+                        >
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12">
+                    <div class="block-video icon-pattern">
+                      <!-- <a
+                        class="popup-youtube btn-play-video"
+                        href="https://www.youtube.com/watch?v=oRI37cOPBQQ"
+                      ></a> -->
+                      <img
+                        class="img-responsive"
+                        src="{{ url_for('static', path='imgs/page/homepage1/img-1.png')}}"
+                        alt="Agon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End tab-->
+            <!-- Start Tab-->
+            <div
+              class="tab-pane fade"
+              id="tab-2"
+              role="tabpanel"
+              aria-labelledby="tab-2"
+            >
+              <div class="bg-1 panel-box mt-50">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="box-optimized">
+                      <h3 class="text-heading-2">
+                        Actionable, multi-dimensional, Budgets
+                      </h3>
+                      <p class="text-body-excerpt mt-30">
+                        Budgeting and Planning solutions offer intuitive
+                        interfaces for effortless budget creation, modification,
+                        and tracking. These harness the power of predictive
+                        analytics and scenario modeling, ensuring agile and
+                        informed financial planning processes.
+                      </p>
+                      <p class="text-body-excerpt mt-30">
+                        Automated Triggers and Alerts can be added for Budget
+                        Control, to monitor actual expenses against Budgeted
+                        amounts, and ensure improved compliances with budgetary
+                        limits.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="block-video icon-pattern">
+                      <!-- <a
+                        class="popup-youtube btn-play-video"
+                        href="https://www.youtube.com/watch?v=oRI37cOPBQQ"
+                      ></a> -->
+                      <img
+                        class="img-responsive"
+                        src="{{ url_for('static', path='imgs/page/homepage1/img-1-2.jpg')}}"
+                        alt="Agon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End tab-->
+            <!-- Start Tab-->
+            <div
+              class="tab-pane fade"
+              id="tab-3"
+              role="tabpanel"
+              aria-labelledby="tab-3"
+            >
+              <div class="bg-3 panel-box mt-50">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="box-optimized">
+                      <h3 class="text-heading-2">
+                        Extremely simplified Expense Analytics
+                      </h3>
+                      <p class="text-body-excerpt mt-30">
+                        Cost optimization analytics Solution employs analytical
+                        tools to meticulously examine cost structures, evaluate
+                        underlying cost drivers, and meticulously pinpoint
+                        specific areas ripe for cost reduction. Furthermore, it
+                        delivers valuable insights into the cost-effectiveness
+                        of various projects and initiatives, enabling
+                        organizations to streamline expenses and enhance
+                        operational efficiencies.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="block-video icon-pattern">
+                      <!-- <a
+                        class="popup-youtube btn-play-video"
+                        href="https://www.youtube.com/watch?v=oRI37cOPBQQ"
+                      ></a> -->
+                      <img
+                        class="img-responsive"
+                        src="{{ url_for('static', path='imgs/page/homepage1/img-1-3.jpg')}}"
+                        alt="Agon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End tab-->
+            <!-- Start Tab-->
+            <div
+              class="tab-pane fade"
+              id="tab-4"
+              role="tabpanel"
+              aria-labelledby="tab-4"
+            >
+              <div class="bg-4 panel-box mt-50">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="box-optimized">
+                      <h3 class="text-heading-2">
+                        Streamlined ESG Data-pipeline and Reporting
+                      </h3>
+                      <p class="text-body-excerpt mt-30">
+                        ESG analytics involves collecting, analyzing, and
+                        reporting data related to different ESG sub-domains to
+                        help organizations measure their ESG performance, make
+                        informed decisions, and enhance their sustainability
+                        practices.
+                      </p>
+                      <p class="text-body-excerpt mt-30">
+                        The Solution encompasses data collection, analysis of
+                        ESG metrics, assessing risks and opportunities related
+                        to sustainability and social responsibility, and ESG
+                        reporting and disclosure requirements.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="block-video icon-pattern">
+                      <!-- <a
+                        class="popup-youtube btn-play-video"
+                        href="https://www.youtube.com/watch?v=oRI37cOPBQQ"
+                      ></a> -->
+                      <img
+                        class="img-responsive"
+                        src="{{ url_for('static', path='imgs/page/homepage1/img-1-4.jpg')}}"
+                        alt="Agon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End tab-->
+            <!-- Start Tab-->
+            <div
+              class="tab-pane fade"
+              id="tab-5"
+              role="tabpanel"
+              aria-labelledby="tab-5"
+            >
+              <div class="bg-5 panel-box mt-50">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="box-optimized">
+                      <h3 class="text-heading-2">
+                        Automated Business & Financial Reporting and Dashboards
+                      </h3>
+                      <p class="text-body-excerpt mt-30">
+                        Management reporting Solution relies on customizable
+                        dashboards that present vital financial metrics,
+                        including revenue, expenses, profit margins, ratio
+                        analysis, cash flow, and working capital. These
+                        dashboards incorporate trend analysis, Leaderboards,
+                        Risks, and historical comparative data, enabling
+                        in-depth assessments of performance trends and long-term
+                        financial health.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="block-video icon-pattern">
+                      <!-- <a
+                        class="popup-youtube btn-play-video"
+                        href="https://www.youtube.com/watch?v=oRI37cOPBQQ"
+                      ></a> -->
+                      <img
+                        class="img-responsive"
+                        src="{{ url_for('static', path='imgs/page/homepage1/img-1-5.jpg')}}"
+                        alt="Agon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End tab-->
+            <!-- Start Tab-->
+
+            <!-- End tab-->
+          </div>
+        </div>
+      </section>
+
+      <section class="section-box" id="Advantages">
+        <div class="container mt-100">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 block-img-we-do">
+              <img
+                class="bdrd-16 img-responsive"
+                src="{{ url_for('static', path='assets/imgs/page/homepage1/img-2.png')}}"
+                alt="Agon"
+              />
+            </div>
+            <div class="col-lg-6 col-sm-12 block-we-do">
+              <span class="tag-1">Advantages</span>
+              <h3 class="text-heading-3 mt-30">
+                Drive Strategic, Planning, and Operational insights to Business
+                Teams in realtime
+              </h3>
+              <!-- <p class="text-body-lead-large color-gray-600 mt-30">
+                Drive Strategic, Planning, and Operational insights to the
+                Business in realtime.
+              </p> -->
+              <div class="line-bd-green mt-50"></div>
+              <div class="row">
+                <div class="col-lg-6 col-sm-6 col-12 mt-50">
+                  <h4 class="text-heading-6 icon-leaf">
+                    Strategic Decision making
+                  </h4>
+                  <p class="text-body-excerpt color-gray-600 mt-15">
+                    Improve Forecasting, scenario analysis, and resource
+                    allocation helping business teams assess and align better.
+                  </p>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12 mt-50">
+                  <h4 class="text-heading-6 icon-leaf">
+                    Operational Efficiency
+                  </h4>
+                  <p class="text-body-excerpt color-gray-600 mt-15">
+                    Cost Management, tracking inefficiencies, and firm handle on
+                    KPI trends can help Business Teams drive improved
+                    Performance and business outcomes.
+                  </p>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12 mt-50">
+                  <h4 class="text-heading-6 icon-leaf">Risk Management</h4>
+                  <p class="text-body-excerpt color-gray-600 mt-15">
+                    Identify transaction, financial, operational or compliance
+                    risk early on, and easily work with Business Teams on risk
+                    mitigation and resolution.
+                  </p>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12 mt-50">
+                  <h4 class="text-heading-6 icon-leaf">
+                    Revenue Growth and Customer Insights
+                  </h4>
+                  <p class="text-body-excerpt color-gray-600 mt-15">
+                    Identify key trends, change in market demands, and potential
+                    insights into untapped markets thereby creating more growth
+                    opportunities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-box box-gray-100 mt-120 mb-20" id="Contact">
+        <div class="container">
+          <div class="icon-wave">
+            <div class="row">
+              <div class="col-lg-12 mb-60">
+                <span class="text-body-capitalized text-uppercase"
+                  >Contact us</span
+                >
+                <h2 class="text-heading-3 color-gray-900 mt-10">
+                  Want to know more?
+                </h2>
+                <p class="text-body-text color-gray-600 mt-20">
+                  We would be happy to hear from you and engage further to craft
+                  a tailored solution<br class="d-lg-block d-none" />
+                </p>
+              </div>
+              <div class="col-lg-4 mb-40">
+                <h4 class="text-heading-6 color-gray-900 icon-home mb-10 mt-10">
+                  Zipdata.AI
+                </h4>
+                <!-- <p class="text-body-text color-gray-600">
+                  Sector 39 <br />Gurugram, Haryana (India)
+                </p> -->
+
+                <p class="text-body-text color-gray-900">
+                  Email: manish@zipdata.ai
+                </p>
+              </div>
+              <form class="col-lg-8" onsubmit action="/submit" method="post">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="name"
+                        placeholder="Enter your name"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="company"
+                        placeholder="Company (optioanl)"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="email"
+                        placeholder="Your email"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="phone"
+                        placeholder="Phone number"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        type="text"
+                        name="message"
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 mt-15">
+                    <button
+                      class="btn btn-black icon-arrow-right-white mr-40 mb-20"
+                      type="submit"
+                    >
+                      Send Message</button
+                    ><br class="d-lg-none d-block" /><span
+                      class="text-body-text-md color-gray-500 mb-20"
+                      >By clicking contact us button, you agree our terms and
+                      policy,</span
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../static/assets/js/vendors/modernizr-3.6.0.min.js"></script>
+    <script src="../static/assets/js/vendors/jquery-3.6.0.min.js"></script>
+    <script src="../static/assets/js/vendors/jquery-migrate-3.3.0.min.js"></script>
+    <script src="../static/assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="../static/assets/js/vendors/waypoints.js"></script>
+    <script src="../static/assets/js/vendors/wow.js"></script>
+    <script src="../static/assets/js/vendors/magnific-popup.js"></script>
+    <script src="../static/assets/js/vendors/perfect-scrollbar.min.js"></script>
+    <script src="../static/assets/js/vendors/select2.min.js"></script>
+    <script src="../static/assets/js/vendors/isotope.js"></script>
+    <script src="../static/assets/js/vendors/scrollup.js"></script>
+    <script src="../static/assets/js/vendors/counterup.js"></script>
+    <script src="../static/assets/js/vendors/slick.js"></script>
+    <script src="../static/assets/js/vendors/jquery.elevatezoom.js"></script>
+    <script src="../static/assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="../static/assets/js/vendors/noUISlider.js"></script>
+    <script src="../static/assets/js/vendors/slider.js"></script>
+    <script src="../static/assets/js/main.js?v=1.0"></script>
+  </body>
+</html>

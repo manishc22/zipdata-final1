@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="msapplication-TileColor" content="#0E0E0E" />
+    <meta name="template-color" content="#0E0E0E" />
+
+    <!-- <link rel="manifest" href="manifest.json" crossorigin /> -->
+    <!-- <meta name="msapplication-config" content="browserconfig.xml" />
+    <meta name="description" content="Index page" />
+    <meta name="keywords" content="index, page" />
+    <meta name="author" content="" /> -->
+    <link
+      href="{{ url_for('static', path='assets/css/style.css') }}"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{{ url_for('static', path='assets/imgs/') }}"
+    />
+
+    <title>Analytics Solutions for CFOs</title>
+  </head>
+  <body>
+    <!-- Preloader Start-->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="text-center">
+            <div class="loader"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header sticky-bar">
+      <div class="container">
+        <div class="main-header">
+          <div class="header-left">
+            <div class="header-logo">
+              <a class="d-flex" href="/"
+                ><img
+                  alt="Agon"
+                  src="{{ url_for('static', path='assets/imgs/template/zipdata-final.png') }}"
+              /></a>
+            </div>
+            <div class="header-nav">
+              <nav class="nav-main-menu d-none d-xl-block">
+                <div class="burger-icon burger-icon-white">
+                  <span class="burger-icon-top"></span>
+                  <span class="burger-icon-mid"></span>
+                  <span class="burger-icon-bottom"></span>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar"
+    >
+      <div class="mobile-header-wrapper-inner">
+        <div class="mobile-header-top">
+          <div class="user-account">
+            <img
+              src="{{ url_for('static', path='assets/imgs/template/ava_1.png') }}"
+              alt="Agon"
+            />
+            <div class="content">
+              <h6 class="user-name">
+                Hi <span class="text-brand">Steven !</span>
+              </h6>
+              <a href="/">Sign Out</a>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-header-content-area">
+          <div class="perfect-scroll">
+            <div class="mobile-menu-wrap mobile-header-border">
+              <!-- mobile menu start-->
+
+              <nav>
+                <ul class="mobile-menu font-heading">
+                  <li class="has-children">
+                    <a class="active" href="/demoapp/home">Home</a>
+                  </li>
+                  <li class="has-children">
+                    <a class="active" href="/demoapp/reporting"
+                      >Management Reporting</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <!-- mobile menu end-->
+            </div>
+            <div class="mobile-account">
+              <h6 class="mb-10">Workspaces</h6>
+              <ul class="mobile-menu font-heading">
+                <li>
+                  <a href="/demoapp/states">States - Budgeting & Planning</a>
+                </li>
+              </ul>
+
+              <ul class="mobile-menu font-heading">
+                <li><a href="/demoapp/products">Product Analysis</a></li>
+              </ul>
+              <ul class="mobile-menu font-heading">
+                <li>
+                  <a href="/demoapp/stores"
+                    >Retail Ops & Performance Analysis</a
+                  >
+                </li>
+              </ul>
+              <ul class="mobile-menu font-heading">
+                <li>
+                  <a href="/demoapp/returns">Process Analysis - Returns</a>
+                </li>
+              </ul>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <section class="section-box mt-50 mb-50">
+        <div class="container">{% block content %} {% endblock %}</div>
+      </section>
+    </main>
+    <!-- Footer-->
+
+    <script src="../static/assets/js/vendors/modernizr-3.6.0.min.js"></script>
+    <script src="../static/assets/js/vendors/jquery-3.6.0.min.js"></script>
+    <script src="../static/assets/js/vendors/jquery-migrate-3.3.0.min.js"></script>
+    <script src="../static/assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="../static/assets/js/vendors/waypoints.js"></script>
+    <script src="../static/assets/js/vendors/wow.js"></script>
+    <script src="../static/assets/js/vendors/magnific-popup.js"></script>
+    <script src="../static/assets/js/vendors/perfect-scrollbar.min.js"></script>
+    <script src="../static/assets/js/vendors/select2.min.js"></script>
+    <script src="../static/assets/js/vendors/isotope.js"></script>
+    <script src="../static/assets/js/vendors/scrollup.js"></script>
+    <script src="../static/assets/js/vendors/counterup.js"></script>
+    <script src="../static/assets/js/vendors/slick.js"></script>
+    <script src="../static/assets/js/vendors/jquery.elevatezoom.js"></script>
+    <script src="../static/assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="../static/assets/js/vendors/noUISlider.js"></script>
+    <script src="../static/assets/js/vendors/slider.js"></script>
+    <script src="../static/assets/js/main.js?v=1.0"></script>
+  </body>
+</html>
