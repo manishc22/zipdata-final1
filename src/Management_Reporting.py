@@ -239,7 +239,7 @@ with tab1:
                 'Select Quarter', options=df_quarter['quarter'].drop_duplicates())
         col8, col9 = st.columns(2, gap='large')
         with col8:
-            print(df_quarter.dtypes)
+           # print(df_quarter.dtypes)
             df_quarter.online_sales = df_quarter.online_sales.astype('float')
             df_quarter.retail_sales = df_quarter.retail_sales.astype('float')
             df_quarter.growth_online_sales = df_quarter.growth_online_sales.astype(
